@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="shader.cpp" />
+    <ClCompile Include="skyBox.cpp" />
+    <ClCompile Include="texture.cpp" />
+    <ClCompile Include="resource_manager.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="world.cpp" />
+    <ClCompile Include="mousePicker.cpp" />
+    <ClCompile Include="screenshot.cpp" />
+    <ClCompile Include="chunk\chunk.cpp" />
+    <ClCompile Include="chunk\perlinNoise.cpp" />
+    <ClCompile Include="light.cpp" />
+    <ClCompile Include="cubeRender.cpp" />
+    <ClCompile Include="objreader.cpp" />
+    <ClCompile Include="tree.cpp" />
+    <ClCompile Include="ballRender.cpp" />
+    <ClCompile Include="objwriter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="shader.h" />
+    <ClInclude Include="skyBox.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="resource_manager.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="world.h" />
+    <ClInclude Include="mousePicker.h" />
+    <ClInclude Include="screenshot.h" />
+    <ClInclude Include="blockType.h">
+      <Filter>blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="chunk\chunk.h" />
+    <ClInclude Include="chunk\perlinNoise.h" />
+    <ClInclude Include="light.h" />
+    <ClInclude Include="cubeRender.h" />
+    <ClInclude Include="objreader.h" />
+    <ClInclude Include="tree.h" />
+    <ClInclude Include="ballRender.h" />
+    <ClInclude Include="objwriter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="blocks">
+      <UniqueIdentifier>{2216c378-b24c-429c-882f-3f6f89e02439}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
